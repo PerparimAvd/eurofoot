@@ -1,0 +1,9 @@
+# Fichiers et répertoires à exclure de Git
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+db.sqlite3
+env/
+.vscode/
+.idea/
