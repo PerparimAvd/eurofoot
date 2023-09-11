@@ -3,4 +3,6 @@ from django.shortcuts import render
 
 def home(request):
     context = {}
-    return render(request, 'accueil.html', context)
+    return render(request, 'home/accueil.html', context)
+
+
